@@ -1,0 +1,57 @@
+{% extends 'app_html/base.html' %}
+
+{% block content %}
+  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="col-lg-6 px-0">
+      <h1 class="display-4 fst-italic">Welcome to My Blog!</h1>
+      <p class="lead my-3">I'm currently stuyding at University in the field of Robotics AI. My field of interest are 3D Printing, Electronics, Programming, IoT, and many more. Hope you enjoy my blog!</p>
+      <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Blog...</a></p>
+    </div>
+  </div>
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4 fst-italic border-bottom">
+        Little Bit About Me
+      </h3>
+      <article class="blog-post">
+        <h2 class="display-6 link-body-emphasis mb-1">Programming</h2>
+
+        <p>My projects are usually written in Python which is the main language I use. I also work with Raspberry Pi, ESP 32, Arduino, Micropython, Home Assistant, and more.</p>
+        <h2>Projects</h2>
+        <br>
+        <ul>
+          <li><strong>LSES-Linear-System-of-Equations-Solver-GUI</strong></li>
+          <li style="list-style-type:none;">Python GUI program for solving 2 linear system of equations using matrices and outputs the solution as a graph.<br><a href="https://github.com/punyathorn/LSES-Linear-System-of-Equations-Solver-GUI">Github Repo</a></li>
+          <br>
+          <li><strong>DBGCN-Discord-Bot-GUI-Control-Nextcord</strong></li>
+          <li style="list-style-type:none;">Python GUI program that is able to connect to discord bot of Nextcord with the help of IPC. User can control the bot by using this GUI.<br><a href="https://github.com/punyathorn/DBGCN-Discord-Bot-GUI-Control-Nextcord">Github Repo</a></li>
+          <br>
+          <li><strong>Thai-Covid-Discord-Bot-Example</strong></li>
+          <li style="list-style-type:none;">A Covid Checker Discord Bot Example (for Thailand only) made with Discord.py <br> <a href="https://github.com/punyathorn/Thai-Covid-Discord-Bot-Example">Github Repo</a></li>
+        </ul>
+
+        <h2>3D Printing</h2>
+        <ul style="list-style-type:none;">
+          <li>I currently own a modded Creality Ender 3 V2 and Bambulab P1S Combo (+AMS). I mostly print with PLA and sometimes PETG.</li>
+        </ul>
+      </article>
+    
+    </div>
+    <div class="col-md-4">
+        <div>
+        <div class="p-4">
+          <h4 class="fst-italic">Contacts</h4>
+          <ol class="list-unstyled">
+            <li><a href="https://github.com/punyathorn">GitHub</a></li>
+            <li><a href="https://discord.com/users/497700330851794949">Discord</a></li>
+            <li><a href="https://instagram.com/programming_3dprinting?igshid=YmMyMTA2M2Y=">Instagram</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+
+{% endblock content%}
